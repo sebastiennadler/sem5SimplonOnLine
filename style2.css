@@ -106,27 +106,13 @@ h2{  text-width:100%;
     color:black;
 }
 
-/*
-.parcours{
-    vertical-align:top;
+
+footer iframe{
     display:inline-block;
-    text-width:15%;
-}
-.ambitions{
-    vertical-align:top;
+    vertical-align:top; 
+    width:50%; }
+
+footer h4{
     display:inline-block;
-    text-width:15%;}
-
-.experiences{
-    vertical-align:top;
-    display:inline-block;
-    text-width:15%;}
-*/
-
-@font-face{
-    font-family:"Toto"
-    src:url("TotoPolice.woff");
-
-}
-
-
+    margin-left : 30px;}
+    
