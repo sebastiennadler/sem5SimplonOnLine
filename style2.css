@@ -41,8 +41,34 @@ body{
 
 header{
     text-width:100%;
-    background-image:} 
+    background-image:url("images/concrete_seamless.png");
+    background-attachment:fixed; 
+} 
 
+main{
+    display:table;
+    width:100%; 
+    background-image:url("images/knitted-netting.png");
+    background-attachment:fixed;
+}
+
+section{
+    display:table-cell;
+    width:33%;
+    padding:10px; 
+}
+
+footer{
+    text-width:100%
+    background-image=url("images/diagmonds.png");
+    background-attachment:fixed; 
+}
+
+.conteneur{
+    text-width:100%; 
+    max-width:960px;
+    padding:10px;
+    marging:15px;}
 
 a:hover
 {
@@ -55,24 +81,47 @@ a:visited
     color: purple;
 }
 
-h1{
-    text-align:center;
+h1{ text-align:center;
     border:2px black solid;
     border-radius:5px;
-    box-shadow:5px 5px 3px black;}
+    box-shadow:5px 5px 3px black;
+    text-width:100%;}
+h2{  text-width:100%;
+    text-align:center;}
 
 .seb{
-    float: right;
+    display:inline-block;
+    vertical-align:top;
+    max-width:25%;
 }
 
-
+.droite{
+    display:inline-block;
+    vertical-align:top;
+    max-width:70%;
+}
 
 
 .tableau{
     color:black;
 }
 
+/*
+.parcours{
+    vertical-align:top;
+    display:inline-block;
+    text-width:15%;
+}
+.ambitions{
+    vertical-align:top;
+    display:inline-block;
+    text-width:15%;}
 
+.experiences{
+    vertical-align:top;
+    display:inline-block;
+    text-width:15%;}
+*/
 
 @font-face{
     font-family:"Toto"
